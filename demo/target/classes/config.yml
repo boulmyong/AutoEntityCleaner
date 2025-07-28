@@ -1,0 +1,6 @@
+clean-interval: 6000
+
+entities-to-clean:
+  - ITEM
+  - ARROW
+  - EXPERIENCE_ORB

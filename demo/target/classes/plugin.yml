@@ -1,0 +1,9 @@
+name: AutoEntityCleaner
+version: 1.0
+main: com.example.AutoEntityCleaner
+api-version: 1.21
+commands:
+  cleanentities:
+    description: Manually cleans entities.
+    usage: /cleanentities
+    permission: autocleaner.clean
