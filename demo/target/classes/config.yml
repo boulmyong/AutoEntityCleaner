@@ -1,6 +1,25 @@
+language: 0 # 0 = English, 1 = Korean
+
 clean-interval: 6000
 
 entities-to-clean:
   - ITEM
   - ARROW
   - EXPERIENCE_ORB
+
+warnings:
+  enabled: true
+
+messages:
+  manual_clean_start:
+    en: "&aManual entity cleaning initiated..."
+    ko: "&a수동 엔티티 정리를 시작합니다..."
+  manual_clean_finish:
+    en: "&aSuccessfully cleaned {count} entities."
+    ko: "&a{count}개의 엔티티를 성공적으로 정리했습니다."
+  no_permission:
+    en: "&cYou do not have permission to use this command."
+    ko: "&c이 명령어를 사용할 권한이 없습니다."
+  warning:
+    en: "&c[Warning] &fEntities will be cleaned in &e{time} &fseconds."
+    ko: "&c[경고] &f엔티티가 &e{time}초&f 후에 정리됩니다."
